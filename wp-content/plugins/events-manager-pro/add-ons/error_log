@@ -1,0 +1,4 @@
+[26-Dec-2014 21:41:36 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/user-fields.php on line 7
+[26-Dec-2014 22:37:28 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/user-fields.php on line 7
+[26-Dec-2014 23:36:33 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/user-fields.php on line 7
+[27-Dec-2014 00:41:22 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/user-fields.php on line 7

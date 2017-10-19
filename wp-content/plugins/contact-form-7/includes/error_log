@@ -1,0 +1,6 @@
+[11-Feb-2015 12:06:55 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[11-Feb-2015 12:07:00 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[11-Feb-2015 12:07:27 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home1/vtifforg/public_html/wp-content/plugins/contact-form-7/includes/capabilities.php on line 3
+[03-Jun-2015 02:46:41 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[03-Jun-2015 02:46:47 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[03-Jun-2015 02:47:26 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home1/vtifforg/public_html/wp-content/plugins/contact-form-7/includes/capabilities.php on line 3

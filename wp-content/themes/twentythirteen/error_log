@@ -1,0 +1,10 @@
+[19-Mar-2016 01:44:47 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/vtifforg/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[19-Mar-2016 01:44:47 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/vtifforg/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[29-Mar-2016 09:31:08 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/vtifforg/public_html/wp-content/themes/twentythirteen/index.php on line 17
+[29-Mar-2016 09:31:09 America/Denver] PHP Fatal error:  Call to undefined function is_active_sidebar() in /home1/vtifforg/public_html/wp-content/themes/twentythirteen/sidebar.php on line 14
+[30-Jun-2016 06:44:48 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/vtifforg/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[28-Jan-2017 21:20:24 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/vtifforg/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[28-Jan-2017 21:20:25 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/vtifforg/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[06-Jun-2017 07:18:47 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/vtifforg/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[11-Jun-2017 22:12:21 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/vtifforg/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[16-Jul-2017 11:15:44 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/vtifforg/public_html/wp-content/themes/twentythirteen/404.php on line 10

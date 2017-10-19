@@ -1,0 +1,17 @@
+[23-Jan-2016 02:17:44 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/google_map.php on line 5
+[23-Jan-2016 02:18:41 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/slideshow.php on line 1
+[19-May-2016 02:12:43 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/google_map.php on line 5
+[19-May-2016 02:12:44 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/slideshow.php on line 1
+[19-May-2016 02:32:43 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/google_map.php on line 5
+[19-May-2016 02:32:43 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/slideshow.php on line 1
+[19-May-2016 02:56:26 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/google_map.php on line 5
+[19-May-2016 02:56:26 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/slideshow.php on line 1
+[19-May-2016 03:00:46 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/slideshow.php on line 1
+[19-May-2016 03:00:47 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/google_map.php on line 5
+[02-Jun-2016 21:56:51 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/google_map.php on line 5
+[02-Jun-2016 21:58:57 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/slideshow.php on line 1
+[22-Jul-2016 19:35:16 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/slideshow.php on line 1
+[04-Oct-2016 03:57:19 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/google_map.php on line 5
+[04-Oct-2016 03:57:36 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/slideshow.php on line 1
+[04-Feb-2017 22:22:35 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/google_map.php on line 5
+[04-Feb-2017 22:22:58 America/Denver] PHP Fatal error:  Call to undefined function of_get_option() in /home1/vtifforg/public_html/wp-content/themes/hayden/js/slideshow.php on line 1

@@ -1,0 +1,931 @@
+/*
+Theme Name:     VTIFF
+Description:    
+Author:         dave@davebarrondesign.com
+Template:       hayden
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../hayden/style.css");
+
+/* GENERAL INFO */
+body{
+	color:#333;
+}
+	
+
+h1, h2, h3, h4, h5, h6
+{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  color: #0fc9c3;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:700;
+  text-transform:uppercase;
+}
+
+h6{
+	text-transform:none;
+	margin-bottom:0px;
+}
+h2
+{
+  font-size: 1.5em;
+  margin-bottom:8px;
+
+}
+h3
+{
+  font-size: 1.25em;
+  margin-bottom:4px;
+}
+
+li{
+	list-style-image: url(images/VTIFF-bullet.png);
+}
+
+#content .post h2{
+	text-transform:none;
+}
+
+hr{
+	color:#c7c7c7;
+	background-color:#c7c7c7;
+	border:0px;
+	height:1px;
+}
+
+.intro{
+	font-size:1.5em;
+	line-height: 1.25em;
+	font-family: 'Cardo', serif;
+  	font-weight:400;
+	font-style:italic;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+/* HEADER*/
+#header{	
+	background: #fff;		
+}
+
+#content h1{
+	display:block;
+ /*   background-image: url(images/VTIFF-underline.png);*/
+ 	border-bottom:1px solid #c7c7c7;
+	background-repeat:repeat-x;
+	margin-bottom:14px;
+}
+
+
+
+.event h6{
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:.75em;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+.event p{
+		color:#333;
+		font-size: 0.9em;
+}
+	
+
+.homeSection .sectionHead h3, .homeSection h3 {
+	color: #0fc9c3;
+ 	font-family: 'Roboto Condensed', sans-serif;
+	font-weight:700;
+	font-size:1.25 em;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+.homeSection .sectionHead h2, .homeSection h2 {
+	color: #0fc9c3;
+ 	font-family: 'Roboto Condensed', sans-serif;
+	font-weight:700;
+	font-size:1.75em;
+	text-align:center;
+	text-transform: uppercase;
+}
+body.home #wrap {
+    padding-top: 0 ! important;
+}
+#featuredPages .title
+{
+	color: #0fc9c3;
+ 	font-family: 'Roboto Condensed', sans-serif;
+	font-weight:700;
+	font-size:1.5em;
+	margin-top:12px;
+}
+.homeSection h5{
+	text-align:center;
+}
+
+#content{
+  font-size: .9em;
+ color:#333;
+}
+
+p{
+	font-size:.9em;
+}
+#content ul li{
+	font-size:.9em;
+}
+
+/* HEADER */
+#logo{
+	float: left;
+	height: 124px;
+	margin-top:0px;
+	padding-top:0px;
+}
+#subhead{
+    margin-left: 235px;
+	bottom:0px;
+	position:absolute;
+	float:left;
+	max-width:100%;
+}
+
+#subhead img{
+	width:100%;
+	max-width:100%;	
+}
+
+#logoContainer{
+	height:125px;
+	position:relative;
+	width:auto;
+}
+
+/* HOMEPAGE */
+
+body .slideshow #logoOverlay{
+    bottom: 6px;
+    position: absolute;
+    z-index: 100;
+}
+
+.home .details p{
+  font-size: 1.9em;
+  margin-bottom: 0px;
+  line-height: 1.3em;
+  color: rgba(255, 255, 255, 1);
+}
+
+#homeContent.homeSection{
+	margin-left:0px;
+	margin-right:0px;
+  	padding: 0px 0 !important;
+  background-color:#999;
+}
+
+#homeContent.homeSection .inside{
+  padding: 0 0px !important;
+  max-width:100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color:#0FF;
+}
+
+#featureWrapper{
+	max-width:100%;
+	background-color:#FFF;
+	border-top: 2px solid #0fc9c3;
+	padding: 18px 0 32px 0;	
+}
+
+#featureHomepage{
+	max-width:1000px;
+	margin: 0 auto;
+}
+#featuredPages{
+	border-top: 2px solid #0fc9c3;	
+	margin-top:0px;
+}
+#featuredPages .page p{
+  text-align: left;
+  font-size: 0.85em;
+}
+
+#content .EventListContent{
+	/*max-width:45%;*/
+	max-width:30%;
+	display:block;
+	/*margin-right: 5%;*/
+	margin-right:3%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight:700;
+	float:left;
+}
+
+#content .EventListContent .eventImage img{
+	height:auto;
+ }
+
+#upcomingEventsWrapper{
+	max-width:100%;
+	background-color:none;
+	background-image: url(images/VTIFF-background-diagonal.png);
+	background-repeat:repeat;
+	border-top: 2px solid #0fc9c3;
+	padding: 18px 0 18px 0;	
+}
+#upcomingEventsHomepage{
+	max-width:1000px;
+	margin: 0 auto;
+	background-color:none;
+}
+
+#upcomingEventsHomepage h2{
+	margin-bottom:12px;
+}
+
+#upcomingEventsHomepage .EventListContent{
+	width:30%;
+	display:block;
+	margin-right: 3%;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight:700;
+	float:left;
+}
+
+#upcomingEventsHomepage .EventListContent .eventColorBar, #content .EventListContent .eventColorBar{
+	height:12px;
+	width:100%;
+	margin-bottom:4px;
+}
+#homeContent.homeSection p{
+	margin-bottom:0px;
+}
+
+#upcomingEventsHomepage .EventListContent .singleEventDate, #content .EventListContent .singleEventDate{
+	font-size:1.5em;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	font-weight:700;
+}
+
+#upcomingEventsHomepage .EventListContent .singleEventInfo, #content .EventListContent .singleEventInfo{
+	font-size:1.25em;
+	margin-top:0px;
+	padding-top:0px;	
+}
+
+#singleEventDate p{
+	font-size:2em;
+	font-family: 'Roboto Condensed',sans-serif;
+    font-weight: 700;
+}
+
+#membershipWrapper{
+	max-width:100%;
+	background-color:#FFF;
+	border-top: 2px solid #0fc9c3;
+	padding: 18px 0 18px 0;	
+}
+#membershipHomepage{
+	max-width:1000px;
+	margin: 0 auto;
+}
+#content .membership{
+	  list-style-image: url(images/VTIFF-bullet.png);
+}
+
+
+#em_widget-2 .eventColorBar{
+	display:block;
+	height:6px;
+	max-width:150px;
+}
+
+
+.home #wrap{
+	background-color:#9C0;
+}
+
+.slideshow #logoOverlay{
+	bottom:0px;
+	position:relative;
+	background-image:none;
+	background-color:none;
+}
+.home .details h2
+{
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:700;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 3em;
+  line-height:2em;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.home .slideshow .details h2 {
+  line-height:1em;
+  font-weight:700;
+
+}
+
+#header .inside{	
+	max-width: 62.5em;	
+	margin: 0 auto;	
+	position: relative;
+	padding: 18px 0 40px 0 !important;			
+}
+
+#border{
+	display:block;
+    background-image: url(images/VTIFF-underline-page.png);
+	background-repeat:repeat-x;
+	height:16px;
+	margin-bottom:40px;
+}
+
+/* NAVIGATION */
+#navWrapper{
+	background-color:#0fc9c3;
+	top:0px;
+	height:25px;
+	max-width:62.5em;
+	margin: 0 auto;
+	  position: relative;
+}
+
+#mainNav{
+	background-color:#0fc9c3;
+	top:0px;
+	margin-top: 0px;
+	height:25px;
+	padding-right:12px;
+}
+
+#mainNav ul a, #mainNav ul li a{
+  line-height: 25px;
+  color: rgba(255,255,255, .8) !important;	
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:700;
+  font-size:1em;
+  letter-spacing:0px;
+}
+
+#mainNav ul li.current a, #mainNav ul li.current-cat a, #mainNav ul li.current_page_item a, #mainNav ul li.current-menu-item a, #mainNav ul li.current-post-ancestor a, .single-post #mainNav ul li.current_page_parent a, #mainNav ul li.current-category-parent a, #mainNav ul li.current-category-ancestor a, #mainNav ul li.current-portfolio-ancestor a, #mainNav ul li.current-projects-ancestor a{
+  color: #2dd0ca;
+}
+
+#mainNav ul li.sfHover a, #mainNav ul li a:hover, #mainNav ul li:hover{
+  color: #82e0da;
+}
+
+#mainNav ul li.sfHover a, #mainNav ul li a:hover, #mainNav ul li:hover{
+  color: rgba(255,255,255, 1) !important;	
+}
+
+#mainNav ul ul{
+  	padding-top: 0px;
+	border-radius:0px;
+	background-color:#0fc9c3;
+	margin-top:-20px;
+}
+
+.home #mainNav ul ul {	
+	background: #0fc9c3;
+}	
+
+/* Changes color of drop down menu */
+#mainNav ul li.sfHover ul a {
+       color: rgba(255, 255, 255, 0.8)!important;
+}
+
+#mainNav ul li.sfHover ul a:hover {
+     color: #fff!important;
+	 text-decoration:underline;
+}
+#mainNav ul li a:hover{
+		 text-decoration:underline;
+}
+
+#topNav {
+	display:none;
+}
+
+
+#pageHead
+{
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  border-bottom-width: 0px;
+}
+
+#container2{
+	max-width:750px;
+	background-color:#fff;
+	border:0px;
+	float:right;
+}
+
+/* POSTS */
+.posts .post .date
+{
+ 
+  background-color:#d5faf7;
+  color:#0fc9c3;
+  font-weight:bold;
+}
+.posts .post .date .day
+{
+  font-size: 2em;
+  padding-top: 28px;
+  display: block;
+  line-height: 1em;
+}
+.posts .post .date .month
+{
+   color:#0fc9c3;
+   font-weight:bold;
+}
+
+/* SIDEBAR & FOOTER*/
+
+#sidebar{
+	font-size:.9em;
+	padding-top:28px;
+}
+
+#sidebar .widgetBox h3, #footer .widgetBox h3{
+  font-size: 1.1em;
+  color: #0fc9c3;
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+
+#sidebar .widgetBox h3{
+	margin-bottom:12px;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+#sidebar .widgetBox  ul li h3{
+	  font-size: 0.9em;
+	  color:#000;
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  text-transform:none;
+	  border-bottom:0px;
+	  margin-bottom:0px;
+}
+
+#sidebar .widgetBox  ul li h3 a{
+	  color: #333;
+}
+
+#sidebar .widgetBox  ul li h3 a:hover{
+	  text-decoration:underline;
+}
+	
+.rpwe-time{
+  color: #333;
+  font-size: 12px;
+}
+
+#sidebar ul li{
+  margin-bottom:8px;
+  padding-bottom:0px;
+  list-style:none;
+}
+
+#sidebar ul li, #sidebar li, #sidebar p{
+	font-size:.9em;
+}
+
+#sidebar #em_widget-2 li{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight:700;
+}
+
+#footer{
+  color: #fff;
+  background-color: #0fc9c3;
+}
+
+#footer .secondary .inside {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #fff;
+  padding-top: 30px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  color:#fff;
+}
+
+#footer ul li {
+	margin-top:10px;
+	margin-bottom:14px;
+	padding-bottom:8px;
+	border-color:#82e0da;
+}
+
+#footer p {
+	color:#fff;
+}
+#footer a {
+	color:#fff;
+}
+
+.widget_woodojo_tweets ul li, .widget_woodojo_tweets ul li a{
+	color:#fff;
+}
+
+.widget_woodojo_tweets ul li  { margin: 0 0 1em; padding: 0 0 1em; border-bottom: 1px solid #82e0da; list-style: none;}
+
+/* Events Manager */
+.singleEventDate .eventDate{
+	font-size:1.5em;
+	color:#333;
+	font-weight:bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#sidebar .singleEventDate{
+	font-size:1.25em;
+	font-weight:bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#sidebar .singleEventInfo{
+	font-size:1em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#sidebar .css-search{
+	border:0px;
+}
+
+#sidebar .em-search-text{
+	background-image:none;
+}
+
+#sidebar .em-search-text {
+
+  width: 160px !important;
+  margin-top:-36px;
+
+}
+
+
+/*MailChimp*/
+
+#footer input[type="submit"]{
+	background-color:#84f4f0 !important;
+	font-size: .7em;	
+}
+
+.button, a.button, #footer a.button, #searchsubmit, input[type="submit"] {	
+	display: inline-block;	
+	color: #fff;
+	text-decoration: none;		
+	position: relative;
+	cursor: pointer;	
+	padding: 12px 12px;
+	border: 1px solid #fff;	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin: 0 3px 0 0;	
+	line-height: normal !important;
+	-webkit-appearance: none;
+	text-transform: uppercase;
+	text-align:center;
+	font-size: .8em;	
+	letter-spacing:1px;
+	font-weight:bold;
+	max-width:200px;
+}
+
+#membershipHomepage .button {
+}
+
+#mc_signup_form {
+	text-align:left;
+}
+
+#mc_subheader{
+	font-size:.85em;
+	margin-top:10px;
+}
+
+#footer .button {float: left !important; clear: both;}
+
+#eventDetails{
+	float:left;
+	width:50%;
+}
+
+#eventDetails .singleEventHeading{
+	float:left;
+	width:25%;
+	padding-top:2px;
+}
+
+#eventDetails p{
+	float:left;
+	line-height:1.5em;
+}
+
+#singleEventDate{
+	width:100%;
+}
+
+#wpfc-calendar.fc.ui-widget .fc-content{
+	margin-top:8px;
+	padding-top:8px;
+}
+
+#wpfc-calendar #event-categories-button {
+	margin-top:6px;
+}
+
+#wpfc-calendar .fc-button-basicDay, #wpfc-calendar .fc-button-basicWeek, #wpfc-calendar .fc-button-month,#wpfc-calendar .fc-button-today {
+	text-transform:uppercase;
+}
+
+#wpfc-calendar-wrapper h2 {
+  font-size: 28px !important;
+}
+
+.sponsor{
+	float:left;
+	padding-right:12px;
+	padding-bottom:12px;
+}
+
+.ngg-gallery-thumbnail img{
+	border:0px;
+}
+
+#content .location {
+	margin-bottom:12px;
+}
+
+input[type="email"], input[type="text"], input[type="password"], textarea {
+	background-color:#ccc;	
+	padding: 15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #6a6a6a;	
+	border: 1px solid rgba(0,0,0,.05);
+	border-bottom: 2px solid rgba(0,0,0,.1);
+	background:	#ccc;
+	font-size: .9em;
+	-webkit-appearance: none;
+}
+
+input[type="text"]:focus {outline: none; background-color: #f7f7f7;}
+textarea:focus {outline: none; background-color: #f7f7f7;}
+
+textarea { width: 80%; line-height: 1.6em; }
+
+/* Main Search Button */
+
+div.css-search div.em-search-main .em-search-submit {
+	position:absolute;
+	top: 5px; right: 5px;
+	-moz-box-shadow: 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow: 0px 0px 0px 0px #ffffff;
+	box-shadow: 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0fc9c3), color-stop(1, #0fc9c3) ) !important;
+	background:-moz-linear-gradient( center top, #0fc9c3 5%, #0fc9c3 100% )!important;
+	background-color:#0fc9c3!important;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:0px;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:bold;
+	padding:2px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #c7c5c7;
+	line-height:12px;
+	height:24px;
+				}
+
+div.css-search div.em-search-main .em-search-submit:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d5faf7), color-stop(1, #d5faf7) )!important;
+	background:-moz-linear-gradient( center top, #d5faf7 5%, #d5faf7 100% )!important;
+	background:-ms-linear-gradient(top, #d5faf7, #d5faf7)!important;
+	background:-o-linear-gradient(top, #d5faf7, #d5faf7)!important;
+	background:linear-gradient(top, #d5faf7, #d5faf7)!important;
+	background-color:#d5faf7!important;
+}
+
+div.css-search div.em-search-main .em-search-submit img { border:none; padding:0; margin:0; box-shadow:none; border-radius:0; background:none; }
+/* IE7 Hack */ div.css-search div.em-search-main button.em-search-submit span { display:block; width:16px; height:16px; background:url('../images/search-mag.png') 0px 0px no-repeat; }			
+				
+button.em-search-submit.loading br {
+	display: none;
+}
+
+button.em-search-submit.loading {
+	padding-top:12px;	
+	width: 40px !important;
+	height: 40px !important;
+}
+
+#content div.css-search input.em-search-text, div.css-search input.em-search-geo {
+  width: 80%;
+  margin-top:4px;
+}
+#content .em-search-main p:empty {
+ display: none;
+}
+#content .em-search-main br {
+ display: none;
+}
+#content .em-events-search-form.em-search-form p:empty {
+ display: none;
+}
+#wpfc-calendar .fc-button-agendaWeek {
+	display:none;
+}
+#wpfc-calendar .fc-button-agendaDay {
+	display:none;
+}
+
+#wpfc-calendar #event-categories-button {
+	display:none;
+}
+
+/* Full Calendar 
+#wpfc-calendar-wrapper .ui-widget-header{
+	background-color: #0fc9c3;
+	background-image: none;
+	border-color:#82e0da;
+}
+
+#wpfc-calendar-wrapper .ui-widget-content{
+	border-color:#ddd;
+	background-color:#fff;
+	background-image:none;
+}
+
+#wpfc-calendar-wrapper .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{
+	background-color: #dff8f7;
+}
+#wpfc-calendar-wrapper  .ui-state-default .ui-icon
+{
+  background-image: url("images/ui-icons_0fc9c3_256x240.png");
+}
+
+Line 93
+ #wpfc-calendar-wrapper .ui-state-hover .ui-icon, .ui-state-focus .ui-icon
+{
+  background-image: url("images/ui-icons_0fc9c3_256x240.png");
+} */
+
+
+@media all and (max-width: 1150px) {
+
+}
+
+/* iPad Landscape */
+
+@media all and (max-width: 768px) {	
+	#mainNav, #navWrapper{
+		background-color:transparent;
+	}
+	#mainNav{
+		margin-top:12px;
+		margin-bottom:12px;
+
+}
+#featureWrapper, #membershipWrapper, #upcomingEventsWrapper{
+	padding-left:20px;
+	padding-right:20px;}
+
+#upcomingEventsHomepage .EventListContent .eventColorBar{
+	height:6px;
+}
+#header{
+	height:auto;
+}
+
+
+/* iPad Portrait */
+
+@media only screen and (max-width: 975px) {		
+	#container2{
+		float:none;
+	}
+	#mainNav, #navWrapper{
+		background-color:transparent;
+	}
+	#mainNav{
+		margin-top:12px;
+		margin-bottom:12px;
+}
+#featureWrapper, #membershipWrapper, #upcomingEventsWrapper{
+	padding-left:20px;
+	padding-right:20px;
+}
+#upcomingEventsHomepage .EventListContent .eventColorBar{
+	height:6px;
+}
+#header{
+	height:auto;
+}
+
+}
+
+@media only screen and (max-width: 820px) {	
+	
+	#header{
+	height:auto;
+}
+}
+
+/*layouts smaller than 700px, iPhone and mobiles*/
+
+@media only screen and (max-width: 700px) {
+	#header{
+	height:auto;
+}
+
+#subhead{
+    margin-left: 190px;
+	bottom:24px;
+	position:absolute;
+	float:left;
+	max-width:100%;
+}
+#content .EventListContent
+{
+  min-width: 40%;
+  display: block;
+  margin-right: 5%;
+
+}
+
+
+}
+
+/* iPhone Landscape */
+@media screen and (max-width: 480px) and (orientation: landscape) {	
+	#header{
+	height:auto;
+}
+#content .EventListContent
+{
+  min-width: 100%;
+  display: block;
+
+}
+}
+
+/* iPhone Portrait */
+@media screen and (max-width: 480px) {
+	#header{
+	height:auto;
+}
+	#logo{
+		float:none;
+		margin:0 auto;
+	}
+#subhead{
+    margin-left: 0px;
+	margin-top:12px;
+	bottom:0px;
+	position:relative;
+	float:none;
+	max-width:100%;
+}
+#content .EventListContent
+{
+  min-width: 100%;
+  display: block;
+
+}
+

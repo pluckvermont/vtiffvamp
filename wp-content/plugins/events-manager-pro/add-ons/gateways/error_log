@@ -1,0 +1,10 @@
+[26-Dec-2014 22:37:28 America/Denver] PHP Fatal error:  Class 'EM_Gateway' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/gateways/gateway.offline.php on line 7
+[26-Dec-2014 22:37:28 America/Denver] PHP Fatal error:  Class 'EM_Gateway' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/gateways/gateway.authorize.aim.php on line 3
+[26-Dec-2014 22:37:28 America/Denver] PHP Fatal error:  Class 'EM_Gateway' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/gateways/gateway.paypal.php on line 3
+[26-Dec-2014 23:36:34 America/Denver] PHP Fatal error:  Class 'EM_Gateway' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/gateways/gateway.authorize.aim.php on line 3
+[26-Dec-2014 23:36:34 America/Denver] PHP Fatal error:  Class 'EM_Gateway' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/gateways/gateway.paypal.php on line 3
+[26-Dec-2014 23:36:35 America/Denver] PHP Fatal error:  Class 'EM_Gateway' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/gateways/gateway.offline.php on line 7
+[27-Dec-2014 00:41:22 America/Denver] PHP Fatal error:  Class 'EM_Gateway' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/gateways/gateway.authorize.aim.php on line 3
+[27-Dec-2014 00:41:23 America/Denver] PHP Fatal error:  Class 'EM_Gateway' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/gateways/gateway.offline.php on line 7
+[27-Dec-2014 02:07:54 America/Denver] PHP Fatal error:  Class 'EM_Gateway' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/gateways/gateway.offline.php on line 7
+[27-Dec-2014 02:07:54 America/Denver] PHP Fatal error:  Class 'EM_Gateway' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/gateways/gateway.authorize.aim.php on line 3

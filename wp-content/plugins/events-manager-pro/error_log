@@ -1,0 +1,4 @@
+[23-Jan-2016 02:05:30 America/Denver] PHP Fatal error:  Call to undefined function is_admin() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/emp-forms.php on line 4
+[23-Jan-2016 02:05:31 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/emp-updates.php on line 9
+[02-Jun-2016 21:44:59 America/Denver] PHP Fatal error:  Call to undefined function is_admin() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/emp-forms.php on line 4
+[02-Jun-2016 21:45:01 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/emp-updates.php on line 9

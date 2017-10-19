@@ -1,0 +1,9 @@
+[26-Dec-2014 22:37:27 America/Denver] PHP Fatal error:  Class 'EM_Form' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/bookings-form/attendee-form.php on line 7
+[26-Dec-2014 22:37:27 America/Denver] PHP Fatal error:  Class 'EM_Form' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/bookings-form/attendee-form.php on line 7
+[26-Dec-2014 22:37:27 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/bookings-form/bookings-form.php on line 15
+[26-Dec-2014 23:36:32 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/bookings-form/bookings-form.php on line 15
+[26-Dec-2014 23:36:32 America/Denver] PHP Fatal error:  Class 'EM_Form' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/bookings-form/attendee-form.php on line 7
+[26-Dec-2014 23:36:32 America/Denver] PHP Fatal error:  Class 'EM_Form' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/bookings-form/attendee-form.php on line 7
+[27-Dec-2014 00:41:21 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/bookings-form/bookings-form.php on line 15
+[27-Dec-2014 00:41:21 America/Denver] PHP Fatal error:  Class 'EM_Form' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/bookings-form/attendee-form.php on line 7
+[27-Dec-2014 00:41:21 America/Denver] PHP Fatal error:  Class 'EM_Form' not found in /home1/vtifforg/public_html/wp-content/plugins/events-manager-pro/add-ons/bookings-form/attendee-form.php on line 7
